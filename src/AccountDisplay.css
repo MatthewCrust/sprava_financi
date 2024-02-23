@@ -1,0 +1,13 @@
+.account-main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.balance-show {
+    font-size: 60px; 
+    font-weight: bold;
+    border-bottom: solid 4px black
+}

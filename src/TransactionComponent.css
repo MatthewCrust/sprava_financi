@@ -1,0 +1,25 @@
+.item-gain {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    color: green;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #e6ffe6;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item-lose {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    color: red;
+    background-color: #ffe6e6;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,63 @@
+/* Invest component styles */
+.invest-container {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.invest-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.invest-container label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.invest-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+.invest-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.invest-container button:hover {
+    background-color: #0056b3;
+}
+
+.invest-container div.result {
+    margin-top: 20px;
+}
+
+.invest-container div.result h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.invest-container div.result p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,9 @@
+
+.homepage-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    margin-top: 50px;
+    margin: 30px;
+    padding: 20px;
+}

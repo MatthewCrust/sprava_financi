@@ -1,0 +1,78 @@
+/* DPH component styles */
+.dph-container {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-height: 330px;
+}
+
+.dph-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dph-input {
+    margin-bottom: 15px;
+}
+
+.dph-input label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.dph-input input,
+.dph-input select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.dph-input select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="%23000" d="M5 7l5 5 5-5H5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 12px;
+    padding-right: 30px;
+}
+
+.dph-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dph-button:hover {
+    background-color: #0056b3;
+}
+
+.dph-result {
+    margin-top: 20px;
+}
+
+.dph-result p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.dph-result p:last-child {
+    margin-bottom: 0;
+}
